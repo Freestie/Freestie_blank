@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container container_header">
+            <div class="logo">
+                <img src="img/img.png" alt="" class="header_logo">
+                <h2 class="logo_title">Freestie</h2>
+            </div>
+            <nav  class="class">
+                <ul class=" nav_list">
+                    <li class="nav_item">Главная</li>
+                    <li class="nav_item">Об авторе</li>
+                    <li class="nav_item">Видео</li>
+                    <li class="nav_item">Галерея</li>
+                    <li class="nav_item">Контакты</li>
+                </ul>
+            </nav>
+            <img src="img/image 1.png" alt="" class="exit_logo">
+        </div>
+    </header>
+
+    <main>
+        <section class="main_blog">
+            <div class="container container_blog">
+                <img src="img/img (1).png" alt="main_img">
+                <div class="main_blog_content">
+                    <h1 class="main_blog_title">Я,Сергей Туембаев</h1>
+                    <p class="main_blog_text">Я начал заниматься программированием и делаю ролики на ютуб. В свободное время провожу стримы на твиче. </p>
+                    <a href="#" class="main_blog_link">Связь</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="about">
+            <div class="container container_about">
+                <h2 class="about__title">Об Авторе</h2>
+                <div class="about__content">
+                    <div class="about_bars">
+                        <ul class="rating_list">
+                            <li>
+                
+                                <h4 class="html__exp">HTML</h4>
+                                <div class="rating_out_html">
+                
+                                    <div class="rating_in_html">
+                                        
+                                    </div>
+                
+                                </div>
+                            </li>
+                
+                            <li>
+                
+                                <h4 class="css__exp">CSS</h4>
+                                <div class="rating_out_css">
+                
+                                    <div class="rating_in_css">
+                                        
+                                    </div>
+                
+                                </div>
+                            </li>
+
+                            <li>
+                
+                                <h4 class="figma__exp">FIGMA</h4>
+                                <div class="rating_out_figma">
+                
+                                    <div class="rating_in_figma">
+                                        
+                                    </div>
+                
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="img/img (2).png" class="about__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <div class="container container_video">
+                <h2 class="video__title">Видео</h2>
+                <iframe class="video__video" src="https://www.youtube.com/embed/u_keEW5zqmU?si=I8CyEV_6Cc0Le0gW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section>
+
+            <h2>Работы</h2>
+
+            <ul class="gallery_list">
+                <li class ="gallery_item">
+    
+                    <a class="lightzoom" href="img/img1.png">
+    
+                    <img class="gallery_img"src="img/img1.png">
+                    
+                    </a>
+    
+                </li>
+    
+                <li class ="gallery_item">
+    
+                    <a class="lightzoom" href="img/img2.png">
+    
+                    <img class="gallery_img" src="img/img2.png">
+                    
+                    </a>
+    
+                </li>
+    
+                <li class ="gallery_item">
+    
+                    <a class="lightzoom" href="img/img3.png">
+    
+                    <img class="gallery_img" src="img/img3.png">
+                    
+                    </a>
+    
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container container_footer">
+            <div class="footer_content">
+                <h2 class="footer_title">Туембаев Сергей</h2>
+                <p class="footer_text">&copy; 2024. Все права защищены.(может быть)</p>
+            </div>
+            <ul class="footer_buttons">
+                <li class="footer_sign">
+                    <a class="footer_link" href="#">
+                        <img class="footer_img" src="img/vk.png">
+                    </a>
+                </li>
+
+                <li class="footer_sign">
+                    <a class="footer_link" href="#">
+                        <img class="footer_img" src="img/telegram.png">
+                    </a>
+                </li>
+                
+                <li class="footer_sign">
+                    <a class="footer_link" href="#">
+                        <img class="footer_img" src="img/discord.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+
+    <script type="text/javascript">
+    
+        jQuery('.lightzoom').lightzoom({
+            speed: 700, 
+            viewTitle: true,
+            imgPadding: 2,
+            overlayOpacity: '0.9',
+            isOverlayClickClosing: true,
+            isWindowClickClosing: false,
+            isEscClosing: true,
+            boxClass: 'test_class'
+            });
+    
+    
+    </script>
+
+</body>
+</html>
